@@ -53,9 +53,12 @@ export class DrinkCard extends LitElement {
 
     h2 {
       margin: 0;
-      font-size: 1.6rem;
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      font-weight: 800;
       color: var(--text-main);
-      line-height: 1.2;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
     }
 
     /* --- 2. Scrollable Middle Body --- */
