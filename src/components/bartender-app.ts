@@ -94,42 +94,45 @@ export class BartenderApp extends LitElement {
         height: 100dvh;
         background-color: var(--bg-canvas);
         color: var(--text-main);
+        font-family: var(--font-sans);
         box-sizing: border-box;
         overflow: hidden;
         padding-top: var(--safe-top);
         padding-bottom: var(--safe-bottom);
-        font-family: var(--font-sans); /* Explicit declaration inside Shadow DOM */
       }
 
+      /* Slimmer, more compact top bar */
       header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: var(--space-sm) var(--space-md);
+        padding: 0.4rem 0.75rem;
         background: var(--bg-surface);
         border-bottom: 1px solid var(--border-subtle);
-        gap: var(--space-xs);
+        gap: 0.4rem;
         flex-shrink: 0;
       }
 
       .search-input {
         flex: 1;
-        padding: var(--space-sm) var(--space-md);
+        padding: 0.45rem 0.85rem;
         border-radius: var(--radius-full);
         border: 1px solid var(--border-subtle);
         background: var(--tag-bg);
         color: var(--text-main);
-        font-size: 1rem;
+        font-size: 0.9rem;
         outline: none;
-      }
-
-      .search-input:focus {
-        border-color: var(--primary);
       }
 
       .header-actions {
         display: flex;
-        gap: var(--space-xs);
+        gap: 0.4rem;
+      }
+
+      /* Compact header buttons */
+      header .btn {
+        padding: 0.45rem 0.75rem;
+        font-size: 0.85rem;
       }
 
       main {
@@ -139,54 +142,93 @@ export class BartenderApp extends LitElement {
         box-sizing: border-box;
         align-items: center;
         justify-content: center;
-        padding: var(--space-md);
+        padding: 0.5rem;
         overflow-y: auto;
       }
 
+      /* Maximized card view space */
       .carousel-container {
-        width: 90vw;
-        height: 78dvh;
+        width: 92vw;
+        height: 88dvh;
         max-width: 480px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         touch-action: pan-y;
         box-sizing: border-box;
       }
-      /* Force the custom element to fill the 90% viewport container */
-      drink-card {
-        width: 100%;
-        height: 100%;
+      .carousel-pagination {
         display: flex;
-        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        width: 100%;
+        padding: 4px 0;
+        flex-shrink: 0;
+        overflow-x: auto;
+        scrollbar-width: none; /* Hide scrollbar for clean look */
+      }
+      carousel-pagination::-webkit-scrollbar {
+        display: none;
       }
 
+      .dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--border-subtle);
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        transition:
+          transform 0.2s ease,
+          background 0.2s ease;
+      }
+
+      .dot.active {
+        background: var(--primary);
+        transform: scale(1.4);
+      }
+
+      /* Streamlined minimal carousel controls */
       .carousel-controls {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        margin-top: var(--space-md);
-        padding: 0 var(--space-xs);
+        margin-top: 0.4rem;
+        padding: 0 0.25rem;
         box-sizing: border-box;
       }
 
+      .nav-btn {
+        background: var(--bg-surface);
+        border: 1px solid var(--border-subtle);
+        color: var(--text-main);
+        padding: 0.35rem 0.85rem;
+        border-radius: var(--radius-sm);
+        font-weight: 600;
+        font-size: 0.85rem;
+        cursor: pointer;
+      }
+
       .counter {
-        font-weight: 700;
+        font-weight: 600;
         color: var(--text-muted);
-        font-size: 1.1rem;
+        font-size: 0.95rem;
       }
 
       .no-results {
         text-align: center;
         color: var(--text-muted);
-        font-size: 1.1rem;
+        font-size: 1rem;
         padding: var(--space-xl);
       }
     `,
   ];
 
+  // Replace the render carousel block with this clean, compact pagination layout
   render() {
     const list = this.filteredRecipes;
     const activeCard = list.length > 0 ? list[this.currentIndex % list.length] : null;
@@ -248,12 +290,17 @@ export class BartenderApp extends LitElement {
                             }}
                           ></drink-card>
 
-                          <div class="carousel-controls">
-                            <button class="btn" @click=${() => this.prevCard()}>← Prev</button>
-                            <span class="counter">
-                              ${(this.currentIndex % list.length) + 1} / ${list.length}
-                            </span>
-                            <button class="btn" @click=${() => this.nextCard()}>Next →</button>
+                          <!-- Minimalist Pagination Dots Footer -->
+                          <div class="carousel-pagination">
+                            ${list.map(
+                              (_, idx) => html`
+                                <button
+                                  class="dot ${idx === this.currentIndex % list.length ? "active" : ""}"
+                                  @click=${() => (this.currentIndex = idx)}
+                                  title="Go to slide ${idx + 1}"
+                                ></button>
+                              `,
+                            )}
                           </div>
                         `
                   }

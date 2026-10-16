@@ -125,10 +125,10 @@ export class DrinkCard extends LitElement {
       background: var(--primary);
       color: var(--primary-contrast);
       border: none;
-      padding: var(--space-md);
+      padding: var(--space-xs);
       border-radius: var(--radius-md);
       font-weight: 700;
-      font-size: 1.05rem;
+      font-size: 0.95rem;
       cursor: pointer;
       display: flex;
       align-items: center;
