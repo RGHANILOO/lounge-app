@@ -1,15 +1,193 @@
 [
   {
+    "id": "elderflower-cooler",
+    "name": "Elderflower Cooler",
+    "category": "Homemade",
+    "glass": "Large Diablo",
+    "ice": "Cubed",
+    "method": "Shake & Strain",
+    "garnish": "Cucumber Slice, Mint Sprig & straw",
+    "ingredients": ["50ml BSCo Elderflower Syrup", "25ml Fresh Lemon Juice", "Top with Soda"]
+  },
+  {
+    "id": "tropical-dream",
+    "name": "Tropical Dream",
+    "category": "Homemade",
+    "glass": "Panelled Cooler",
+    "ice": "Cubed",
+    "method": "Shake & Strain",
+    "garnish": "Orange Slice & straw",
+    "ingredients": [
+      "25ml Mango Puree",
+      "25ml BSCo Coconut Syrup",
+      "25ml Pineapple Juice",
+      "Top with Soda"
+    ]
+  },
+  {
+    "id": "pink-lemonade",
+    "name": "Pink Lemonade",
+    "category": "Homemade",
+    "glass": "Panelled Cooler",
+    "ice": "Cubed",
+    "method": "Build",
+    "garnish": "Lemon wedge & straw",
+    "ingredients": [
+      "25ml Pink Lemonade syrup",
+      "25ml Lemon Juice",
+      "25ml Raspberry Puree",
+      "Top with soda"
+    ]
+  },
+  {
+    "id": "orange-passionfruit-cooler",
+    "name": "Orange & Passionfruit Cooler",
+    "category": "Homemade",
+    "glass": "Large Diablo",
+    "ice": "Cubed",
+    "method": "Shake & Strain",
+    "garnish": "Orange slice & straw",
+    "ingredients": ["25ml Orange Juice", "25ml Passionfruit Puree", "Top with Water"]
+  },
+  {
+    "id": "sour-cherryade",
+    "name": "Sour Cherryade",
+    "category": "Homemade",
+    "glass": "Panelled Cooler",
+    "ice": "Cubed",
+    "method": "Shake & Strain",
+    "garnish": "Cherry & lime skewer, straw",
+    "ingredients": ["50ml Cherry Puree", "25ml Apple Juice", "12.5ml Lime Juice", "Top with soda"]
+  },
+  {
+    "id": "aperol-spritz",
+    "name": "Aperol Spritz",
+    "category": "Spritzes",
+    "glass": "Wine",
+    "ice": "Cubed",
+    "method": "Build",
+    "garnish": "Orange Slice & straw",
+    "ingredients": ["50ml Aperol", "75ml Prosecco", "25ml Soda"]
+  },
+  {
+    "id": "elderflower-spritz",
+    "name": "Elderflower Spritz",
+    "category": "Spritzes",
+    "glass": "Wine Glass",
+    "ice": "Cubed",
+    "method": "Shake & Strain",
+    "garnish": "Cucumber Slice, Mint Sprig & straw",
+    "ingredients": [
+      "50ml Smirnoff Vodka",
+      "25ml Lemon Juice",
+      "25ml BSCo Elderflower Syrup",
+      "25ml Apple Juice",
+      "8-10 Mint leaves",
+      "50ml Lemonade"
+    ]
+  },
+  {
+    "id": "wild-berry-spritz",
+    "name": "Wild Berry Spritz",
+    "category": "Spritzes",
+    "glass": "Wine Glass",
+    "ice": "Cubed",
+    "method": "Build",
+    "garnish": "Mint Sprig & straw",
+    "ingredients": [
+      "25ml Montzi Blackberry",
+      "25ml Blueberry Purée",
+      "8-10 Mint Leaves",
+      "50ml Prosecco",
+      "Top with Soda"
+    ]
+  },
+  {
+    "id": "passion-fruit-martini",
+    "name": "Passion Fruit Martini",
+    "category": "Cocktails",
+    "glass": "Coupe",
+    "ice": "None",
+    "method": "Shake & Strain",
+    "garnish": "25ml Prosecco",
+    "ingredients": [
+      "25ml Smirnoff Vanilla Vodka",
+      "25ml Passoa",
+      "25ml Passion Fruit Puree",
+      "25ml Pineapple Juice",
+      "12.5ml Lime Juice",
+      "25ml Prosecco (on the side)"
+    ]
+  },
+  {
+    "id": "pina-colada",
+    "name": "Pina Colada",
+    "category": "Cocktails",
+    "glass": "Hurricane",
+    "ice": "Cubed",
+    "method": "Shake & Strain",
+    "garnish": "Cherry Skewer, Angostura Bitters & straw",
+    "ingredients": [
+      "50ml Havana 3yo Rum",
+      "50ml Re'al Coconut Cream",
+      "50ml Pineapple Juice",
+      "Angostura Bitters (garnish)"
+    ]
+  },
+  {
+    "id": "peach-iced-tea-quila",
+    "name": "Peach Iced Tea-Quila",
+    "category": "Cocktails",
+    "glass": "Highball",
+    "ice": "Cubed",
+    "method": "Shake & Strain",
+    "garnish": "Mint Sprig & Lemon Slice & straw",
+    "ingredients": [
+      "25ml El Jimador Tequila",
+      "25ml Archers Peach Schnapps",
+      "50ml English Breakfast Tea (cold)",
+      "25ml Lemon Juice",
+      "25ml Sugar Syrup"
+    ]
+  },
+  {
+    "id": "raspberry-vanilla-martini",
+    "name": "Raspberry & Vanilla Martini",
+    "category": "Cocktails",
+    "glass": "Coupe",
+    "ice": "None",
+    "method": "Shake & Strain",
+    "garnish": "Freeze Dried Raspberries",
+    "ingredients": ["25ml Smirnoff Vanilla", "125ml Montzi Raspberry & Vanilla Premix"]
+  },
+  {
+    "id": "pink-cloud",
+    "name": "Pink Cloud",
+    "category": "Cocktails",
+    "glass": "Gin Goblet",
+    "ice": "Cubed",
+    "method": "Shake & Strain",
+    "garnish": "Lime Wedge & Mint Sprig",
+    "ingredients": [
+      "37.5ml Tanqueray",
+      "12.5ml Smirnoff Vanilla",
+      "12.5ml Elderflower Syrup",
+      "25ml Coco Re'al",
+      "50ml Cranberry Juice",
+      "25ml Lime Juice"
+    ]
+  },
+  {
     "id": "amaretto-sour",
     "name": "Amaretto Sour",
     "category": "Cocktails",
     "glass": "Small Diablo",
     "ice": "Cubed",
     "method": "Shake & Strain",
-    "garnish": "Orange slice & show",
+    "garnish": "Orange slice & straw",
     "ingredients": [
       "50ml Luxardo Amaretto",
-      "25ml Lemon juice",
+      "25ml Lemon Juice",
       "25ml Sugar Syrup",
       "25ml Orange Juice"
     ]
@@ -47,11 +225,7 @@
     "ice": "None",
     "method": "Shake & Strain",
     "garnish": "3 Coffee Beans",
-    "ingredients": [
-      "50ml Smirnoff Vanilla Vodka",
-      "75ml Think Drinks Espresso",
-      "Creator Cold Brew"
-    ]
+    "ingredients": ["50ml Smirnoff Vanilla Vodka", "75ml Think Drinks Espresso Creator Cold Brew"]
   },
   {
     "id": "long-island-iced-tea",
@@ -76,7 +250,7 @@
     "name": "Lounge on the Beach",
     "category": "Cocktails",
     "glass": "Hurricane",
-    "ice": "Cubed & Crushed Ice or None",
+    "ice": "Cubed & Crushed Ice cap",
     "method": "Shake & Strain",
     "garnish": "Orange Slice & straw",
     "ingredients": [
@@ -108,7 +282,7 @@
     "name": "Margarita Classic",
     "category": "Cocktails",
     "glass": "Small Diablo or Coupe",
-    "ice": "Cubed & Crushed Ice or None",
+    "ice": "Cubed & Crushed Ice cap or None",
     "method": "Shake & Strain",
     "garnish": "Lime Wedge & straw",
     "ingredients": ["50ml El Jimador", "12.5ml Cointreau", "12.5ml Sugar Syrup", "25ml Lime Juice"]
@@ -118,7 +292,7 @@
     "name": "Margarita Mango",
     "category": "Cocktails",
     "glass": "Small Diablo or Coupe",
-    "ice": "Cubed & Crushed Ice or None",
+    "ice": "Cubed & Crushed Ice cap or None",
     "method": "Shake & Strain",
     "garnish": "Lime Wedge & straw",
     "ingredients": ["50ml El Jimador", "12.5ml Cointreau", "25ml Mango Puree", "25ml Lime Juice"]
@@ -128,13 +302,13 @@
     "name": "Margarita Strawberry",
     "category": "Cocktails",
     "glass": "Small Diablo or Coupe",
-    "ice": "Cubed & Crushed Ice or None",
+    "ice": "Cubed & Crushed Ice cap or None",
     "method": "Shake & Strain",
     "garnish": "Lime Wedge & straw",
     "ingredients": [
       "50ml El Jimador",
       "12.5ml Cointreau",
-      "12.5ml Strawberry Puree",
+      "25ml Strawberry Puree",
       "25ml Lime Juice"
     ]
   },
@@ -143,7 +317,7 @@
     "name": "Margarita Spicy",
     "category": "Cocktails",
     "glass": "Small Diablo or Coupe",
-    "ice": "Cubed & Crushed Ice or None",
+    "ice": "Cubed & Crushed Ice cap or None",
     "method": "Shake & Strain",
     "garnish": "Lime Wedge & straw",
     "ingredients": [
@@ -170,112 +344,19 @@
     ]
   },
   {
-    "id": "mojito-blueberry-passion",
+    "id": "mojito-blueberry-passion-fruit-raspberry",
     "name": "Mojito Blueberry, Passion Fruit or Raspberry",
     "category": "Cocktails",
     "glass": "Highball",
     "ice": "Crushed",
     "method": "Churn",
-    "garnish": "Mint Sprig, Lime Wedge & straw",
+    "garnish": "Mint sprig, Lime Wedge & straw",
     "ingredients": [
       "50ml Mount Gay Silver",
       "25ml Blueberry, Passion fruit or Raspberry Puree",
       "25ml Lime Juice",
       "8-10 Mint Leaves",
       "Top with Soda"
-    ]
-  },
-  {
-    "id": "passion-fruit-martini",
-    "name": "Passion Fruit Martini",
-    "category": "Cocktails",
-    "glass": "Coupe",
-    "ice": "None",
-    "method": "Shake & Strain",
-    "garnish": "25ml Prosecco",
-    "ingredients": [
-      "25ml Smirnoff Vanilla Vodka",
-      "25ml Passoa",
-      "25ml Passion Fruit Puree",
-      "25ml Pineapple Juice",
-      "12.5ml Lime Juice",
-      "12.5ml Sugar Syrup",
-      "25ml Prosecco (on the side)"
-    ]
-  },
-  {
-    "id": "pina-colada",
-    "name": "Pina Colada",
-    "category": "Cocktails",
-    "glass": "Hurricane",
-    "ice": "Cubed",
-    "method": "Shake & Strain",
-    "garnish": "Cherry Skewer, Angostura Bitters (garnish)",
-    "ingredients": [
-      "50ml Havana 3yo Rum",
-      "50ml Re'al Coconut Cream",
-      "50ml Pineapple Juice",
-      "Angostura Bitters"
-    ]
-  },
-  {
-    "id": "peach-iced-tea-quila",
-    "name": "Peach Iced Tea-Quila",
-    "category": "Cocktails",
-    "glass": "Highball",
-    "ice": "Cubed",
-    "method": "Shake & Strain",
-    "garnish": "Mint Sprig & Lemon Slice & straw",
-    "ingredients": [
-      "25ml El Jimador Tequila",
-      "25ml Archers Peach Schnapps",
-      "50ml English Breakfast Tea (cold)",
-      "25ml Lemon Juice",
-      "25ml Sugar Syrup"
-    ]
-  },
-  {
-    "id": "raspberry-vanilla-martini",
-    "name": "Raspberry & Vanilla Martini",
-    "category": "Cocktails",
-    "glass": "Coupe",
-    "ice": "None",
-    "method": "Shake & Strain",
-    "garnish": "Freeze Dried Raspberries",
-    "ingredients": ["25ml Smirnoff Vanilla", "125ml Monin Raspberry & Vanilla Premix"]
-  },
-  {
-    "id": "pink-cloud",
-    "name": "Pink Cloud",
-    "category": "Cocktails",
-    "glass": "Gin Goblet",
-    "ice": "Cubed",
-    "method": "Shake & Strain",
-    "garnish": "Lime Wedge & Mint Sprig",
-    "ingredients": [
-      "37.5ml Tanqueray",
-      "12.5ml Smirnoff Vanilla",
-      "12.5ml Elderflower Syrup",
-      "25ml Coco Re'al",
-      "50ml Cranberry Juice",
-      "25ml Lime Juice"
-    ]
-  },
-  {
-    "id": "elderglow-spritz",
-    "name": "Elderglow Spritz",
-    "category": "AF Cocktails",
-    "glass": "Wine Glass",
-    "ice": "Cubed",
-    "method": "Shake & Strain",
-    "garnish": "Mint Sprig, cucumber slice & sip straws",
-    "ingredients": [
-      "50ml Tanqueray 0.0%",
-      "25ml Lemon Juice",
-      "25ml BSCO Elderflower Syrup",
-      "25ml Apple Juice",
-      "8-10 Mint Leaves",
-      "50ml Lemonade"
     ]
   },
   {
@@ -289,7 +370,24 @@
     "ingredients": ["25ml Caleno Dark & Spicy", "25ml SB Almond Syrup", "125ml Cherry Juice"]
   },
   {
-    "id": "pink-ap-cloud",
+    "id": "elderglow-spritz",
+    "name": "Elderglow Spritz",
+    "category": "AF Cocktails",
+    "glass": "Wine Glass",
+    "ice": "Cubed",
+    "method": "Shake & Strain",
+    "garnish": "Mint sprig, cucumber slice & 2 sip straws",
+    "ingredients": [
+      "50ml Tanqueary 0.0%",
+      "25ml Lemon Juice",
+      "25ml BSCo Elderflower Syrup",
+      "25ml Apple juice",
+      "8-10 Mint leaves",
+      "50ml Lemonade"
+    ]
+  },
+  {
+    "id": "pink-af-cloud",
     "name": "Pink AF Cloud",
     "category": "AF Cocktails",
     "glass": "Gin Goblet",
@@ -314,15 +412,15 @@
     "garnish": "Mint Sprig, Lime Wedge & 2 straws",
     "ingredients": [
       "25ml Caleno Dark & Spicy",
-      "25ml Sugar Syrup",
       "25ml Lime Juice",
+      "25ml Sugar Syrup",
       "8-10 Mint Leaves",
       "Top with Soda"
     ]
   },
   {
-    "id": "no-jito-blueberry-passion-raspberry",
-    "name": "No-Jito Blueberry, Passion or Raspberry",
+    "id": "no-jito-blueberry-passion-fruit-or-raspberry",
+    "name": "No-Jito Blueberry, Passion Fruit or Raspberry",
     "category": "AF Cocktails",
     "glass": "Highball",
     "ice": "Crushed",
@@ -330,7 +428,7 @@
     "garnish": "Mint Sprig, Lime Wedge & 2 straws",
     "ingredients": [
       "25ml Caleno Dark & Spicy",
-      "25ml Lime juice",
+      "25ml Lime Juice",
       "25ml Blueberry, Passion fruit or Raspberry Puree",
       "8-10 Mint Leaves",
       "Top with Soda"
@@ -353,90 +451,7 @@
     "glass": "Panelled Cooler",
     "ice": "Cubed",
     "method": "Build & Stir",
-    "garnish": "Magic Dust Rim, Tortilla Chip, Lemon Slice and Jalapeno Skewer & straw",
+    "garnish": "Magic Dust Rim, Tortilla Chip, Lemon Slice and Jalapeno Skewer & 2 straws",
     "ingredients": ["200ml Bloody Tomato Juice"]
-  },
-  {
-    "id": "elderflower-cooler",
-    "name": "Elderflower Cooler",
-    "category": "Homemade",
-    "glass": "Large Diablo",
-    "ice": "Cubed",
-    "method": "Shake & Strain",
-    "garnish": "Cucumber Slice, Mint Sprig & straw",
-    "ingredients": [
-      "50ml BSCO Elderflower",
-      "Syrup",
-      "25ml Fresh Lemon Juice",
-      "25ml Pineapple Juice",
-      "Top with Soda"
-    ]
-  },
-  {
-    "id": "tropical-dream",
-    "name": "Tropical Dream",
-    "category": "Homemade",
-    "glass": "Panelled Cooler",
-    "ice": "Cubed",
-    "method": "Shake & Strain",
-    "garnish": "Orange Slice & straw",
-    "ingredients": [
-      "25ml Mango Puree",
-      "25ml BSCO Coconut Syrup",
-      "25ml Pineapple Juice",
-      "Top with Soda"
-    ]
-  },
-  {
-    "id": "pink-lemonade",
-    "name": "Pink Lemonade",
-    "category": "Homemade",
-    "glass": "Panelled Cooler",
-    "ice": "Cubed",
-    "method": "Build",
-    "garnish": "Lemon wedge & straw",
-    "ingredients": [
-      "25ml Pink Lemonade syrup",
-      "25ml Lemon Juice",
-      "25ml Raspberry Puree",
-      "Top with soda"
-    ]
-  },
-  {
-    "id": "orange-passionfruit-cooler",
-    "name": "Orange & Passionfruit Cooler",
-    "category": "Homemade",
-    "glass": "Large Diablo",
-    "ice": "Cubed",
-    "method": "Shake & Strain",
-    "garnish": "Orange slice & straw",
-    "ingredients": ["1 Orange juice", "25ml Passionfruit Puree", "Top with Water"]
-  },
-  {
-    "id": "sour-cherryade",
-    "name": "Sour Cherryade",
-    "category": "Homemade",
-    "glass": "Panelled Cooler",
-    "ice": "Cubed",
-    "method": "Shake & Strain",
-    "garnish": "Cherry skewer, straw",
-    "ingredients": ["50ml Cherry Puree", "25ml Apple Juice", "12.5ml Lime Juice", "Top with soda"]
-  },
-  {
-    "id": "passion-fruit-strawberry-bubble-tea",
-    "name": "Passion Fruit & Strawberry Bubble Tea",
-    "category": "Homemade",
-    "glass": "Panelled Cooler",
-    "ice": "Cubed",
-    "method": "Shake & Strain",
-    "garnish": "Bubble tea straw",
-    "ingredients": [
-      "25ml Passionfruit Puree",
-      "50ml English Breakfast Tea (cold)",
-      "25ml Sugar Syrup",
-      "12.5ml Lime Juice",
-      "Top with Water",
-      "50g Strawberry Boba"
-    ]
   }
 ]

@@ -154,7 +154,7 @@ export class DrinkCard extends LitElement {
     return html`
       <!-- HEADER -->
       <div class="card-header">
-        <span class="category-tag">Cocktails</span>
+        <span class="category-tag">${this.drink.category || "Cocktail"}</span>
         <h2>${this.drink.name}</h2>
       </div>
 
